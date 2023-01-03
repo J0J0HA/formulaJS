@@ -15,3 +15,5 @@ $(() => {
     formula.init();
 })
 ```
+## Github Pages
+If you are serving your site over GitHub Pages, you should add an empty file named `.nojekyll` to the root directory to allow serving node_modules.
