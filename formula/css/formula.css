@@ -68,7 +68,7 @@ textarea {
 }
 
 .f-prank-midfincur {
-    cursor: url(/src/media/cursor.cur);
+    cursor: url(../media/cursor.cur);
 }
 
 .f-content {
@@ -350,6 +350,14 @@ html:not([data-scroll='0'])>body>.f-floatingmenu {
 .f-extra-fill {
     width: max-content;
     width: calc(100% - 20px);
+}
+
+.f-extra-space {
+    line-height: 2;
+}
+
+.f-extra-nodot {
+    list-style-type: none;
 }
 
 .f-extra-right {
