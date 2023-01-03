@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/src/css/formula.css">
+    <script src="/src/js/jquery.js"></script>
+    <script src="/src/js/formula.js"></script>
+    <script src="/src/js/index.js"></script>
+</head>
+<body>
+    <div class="f-header f-part-bar"><div class="f-header f-part-menu">&#x2630;</div><div class="f-header f-part-title">JoJoJux</div></div>
+    <div class="f-floatingmenu">
+        <ul>
+            <li select>Homepage</li>
+            <li>This could be a link</li>
+            <li>Settings</li>
+        </ul>
+    </div>
+    <div class="f-content">
+        <p>
+            Hello and welcome! This page is a test page that presents all html elements implemented in formula.<br>
+            This text is written to trigger the scrollbar to check if scrolling works properly.<br>
+            Thanks for reading, even if it is pretty unimportant to read.
+        </p>
+        <button name="dis">Disable all</button>
+        <button name="ena" disable>Enable all</button>
+        <div name="single" value="1" class="f-option f-style-radio" select>Option Radio Selected</div>
+        <div name="single" value="2" class="f-option f-style-radio" optional>Option Radio Optional</div>
+        <button name="sel">Select all</button>
+        <button name="des">Unselect all</button>
+        <div name="multi1" class="f-option f-style-multi">Option Multi</div>
+        <div name="multi2" class="f-option f-style-multi" oneway>Option Multi Oneway</div>
+        <div name="multi3" class="f-option f-style-multi" require>Option Multi Required</div>
+        <div name="multi4" class="f-option f-style-multi" oneway require>Option Multi Oneway Required</div>
+        <table>
+            <thead>
+                <th>First Name</th><th>Last Name</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Johannes</td><td>Hartel</td>
+                </tr>
+                <tr>
+                    <td>My</td><td>Ananas</td>
+                </tr>
+            </tbody>
+        </table>
+        <table extra-fill>
+            <thead>
+                <th>First Name</th><th>Last Name</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Johannes</td><td>Hartel</td>
+                </tr>
+                <tr>
+                    <td>My</td><td>Ananas</td>
+                </tr>
+            </tbody>
+        </table>
+        <form>
+            <input type="text"><br>
+            <input type="number"><br>
+            <input type="password"><br>
+            <input type="submit">
+            <input type="button" value="test">
+            <button>Hi</button>
+        </form>
+        <div collapse><h1 trigger>hello</h1><div content>This is a details > summary element in formula. Just a collapse, trigger and content property!</div></div>
+    </div>
+</body>
+</html>
